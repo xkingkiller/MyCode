@@ -1,0 +1,56 @@
+Robot
+		ID: Delta Robot_R0
+				Sensor
+				Joint
+						ID: J0
+						ID: Joint_J1
+						ID: Joint_J2
+						ID: Joint_J3
+						ID: Joint_J4
+						ID: Joint_J5
+						ID: Joint_J6
+						ID: Joint_J1_J0
+						ID: Joint_J3_J0
+						ID: Joint_J5_J0
+						ID: Joint_J2_J0
+						ID: Joint_J4_J0
+						ID: Joint_J5_J1
+						ID: Joint_J1_J1
+						ID: Joint_J2_J1
+						ID: Joint_J4_J1
+						ID: Joint_J3_J1
+						ID: Joint_J5_J1_J0
+						ID: Joint_J5_J2
+						ID: Joint_J5_J1_J1
+						ID: Joint_J4_J2
+						ID: J1
+						ID: J2
+						ID: Joint_J9
+						ID: Joint_J10
+						ID: Joint_J11
+				Actuator
+						ID: Motor_J0
+						ID: Motor_J1
+						ID: Motor_J2
+				Robot Component
+						ID: link1
+						ID: link2
+						ID: link6
+						ID: link5
+						ID: link5_O0
+						ID: link6_O0
+						ID: link4
+						ID: link7
+						ID: link2_O0
+						ID: link6_O1
+						ID: link5_O1
+						ID: link5_O2
+						ID: link6_O3
+						ID: link2_O1
+						ID: link6_O1_O0
+						ID: link5_O2_O0
+						ID: link5_O1_O0
+						ID: link6_O3_O2
+
+
+Obstacle
