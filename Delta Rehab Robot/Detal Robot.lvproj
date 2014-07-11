@@ -28,6 +28,7 @@
 			<Item Name="Delta Robot Kinematics.lvclass" Type="LVClass" URL="../SubVIs/Delta Robot Kinematics/Delta Robot Kinematics.lvclass"/>
 			<Item Name="Locus Recorder.lvclass" Type="LVClass" URL="../SubVIs/Locus Recorder/Locus Recorder.lvclass"/>
 			<Item Name="Simu Delta Robot.lvclass" Type="LVClass" URL="../SubVIs/Simu Delta Robot/Simu Delta Robot.lvclass"/>
+			<Item Name="Trajectory Drawer.lvclass" Type="LVClass" URL="../SubVIs/Trajectory Drawer/Trajectory Drawer.lvclass"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test InterCircles.vi" Type="VI" URL="../Test/Test InterCircles.vi"/>
@@ -160,6 +161,7 @@
 				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Robotics Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/NI_Robotics Utilities.lvlib"/>
 				<Item Name="NI_Robotics_Caster Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Caster Wheel/NI_Robotics_Caster Wheel.lvclass"/>
 				<Item Name="NI_Robotics_Fixed Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Fixed Wheel/NI_Robotics_Fixed Wheel.lvclass"/>
