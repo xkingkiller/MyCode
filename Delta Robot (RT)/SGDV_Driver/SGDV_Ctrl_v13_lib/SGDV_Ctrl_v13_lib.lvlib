@@ -29,6 +29,10 @@
 		<Item Name="Initialize FPGA.vi" Type="VI" URL="../Basic VIs/Initialize FPGA.vi"/>
 		<Item Name="Close FPGA.vi" Type="VI" URL="../Basic VIs/Close FPGA.vi"/>
 	</Item>
-	<Item Name="SGDV_Ctrl_Class.lvclass" Type="LVClass" URL="../SGDV_Ctrl_Class/SGDV_Ctrl_Class.lvclass"/>
+	<Item Name="Common" Type="Folder">
+		<Item Name="Calibration.ctl" Type="VI" URL="../Common/Calibration.ctl"/>
+	</Item>
+	<Item Name="SGDV Motor.lvclass" Type="LVClass" URL="../SGDV_Ctrl_Class/SGDV Motor.lvclass"/>
 	<Item Name="SGDV FPGA Target.lvclass" Type="LVClass" URL="../SGDV FPGA Target Class/SGDV FPGA Target.lvclass"/>
+	<Item Name="FSR.lvclass" Type="LVClass" URL="../FSR/FSR.lvclass"/>
 </Library>
