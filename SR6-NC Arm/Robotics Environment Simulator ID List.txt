@@ -1,0 +1,32 @@
+Robot
+		ID: SR6-NC Arm_R0
+				Sensor
+				Joint
+						ID: Joint_J0
+						ID: Joint_J1
+						ID: Joint_J2
+						ID: Joint_J3
+						ID: Joint_J4
+						ID: Joint_J5
+						ID: Joint_J6
+						ID: Joint_J7
+				Actuator
+						ID: Motor_Joint_J0
+						ID: Motor_Joint_J1
+						ID: Motor_Joint_J2
+						ID: Motor_Joint_J3
+						ID: Motor_Joint_J4
+						ID: Motor_Joint_J5
+				Robot Component
+						ID: link_base
+						ID: link0
+						ID: link2
+						ID: link1
+						ID: link3
+						ID: link4
+						ID: link5
+						ID: link6
+						ID: link_EE
+
+
+Obstacle
