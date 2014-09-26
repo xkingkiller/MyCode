@@ -1,0 +1,28 @@
+PA3_09	CONT9	4	0208	START
+PA3_10	CONT10	1	0209	SON
+PA3_11	CONT11	23	020A	立即值变更指令(MS)
+PA3_12	CONT12	11	020B	RST(报警复位）
+PA3_56	OUT6	2	0305	定位结束INP
+
+PA2_40 = 0	立即数数据对自动启动有效
+PA3_01 = 0	SON硬件分配取消
+
+5101	立即数位置
+5102	立即数速度
+5100	立即数状态：FF0000(ABS), 1FF0000(INC)
+5103	立即值加速时间
+5104	立即值减速时间
+
+
+1. SON
+2. V(5000)->5102
+3. Position ->5101
+4. START ON, START OFF
+5. INP == 0 (可立即值变更）
+IF INP == 0
+	P -> 5101
+	MS ON, MS OFF
+ELSE
+	P-> 5101
+	START ON, START OFF
+END

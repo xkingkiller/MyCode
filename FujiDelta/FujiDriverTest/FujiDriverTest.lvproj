@@ -10,7 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="RS485 Comm Test 1.vi" Type="VI" URL="../RS485 Comm Test 1.vi"/>
+		<Item Name="Test Read Bit.vi" Type="VI" URL="../Test Read Bit.vi"/>
+		<Item Name="Test Request Read Data.vi" Type="VI" URL="../Test Request Read Data.vi"/>
+		<Item Name="Test Write Bit.vi" Type="VI" URL="../Test Write Bit.vi"/>
+		<Item Name="Test Write Data.vi" Type="VI" URL="../Test Write Data.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../../../Test.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+			</Item>
+			<Item Name="ALPHA5 RS485.lvlib" Type="Library" URL="../../ALPHA5 RS485/ALPHA5 RS485.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT myRIO Target" Type="RT myRIO">
@@ -96,16 +110,7 @@ AddOutputFilter chunkFilter
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">myRIO-1900</Property>
 		</Item>
-		<Item Name="RS485 Comm Test 1.vi" Type="VI" URL="../RS485 Comm Test 1.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-			</Item>
-			<Item Name="ALPHA5 RS485.lvlib" Type="Library" URL="../../ALPHA5 RS485/ALPHA5 RS485.lvlib"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
