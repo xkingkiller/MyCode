@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "10.144.20.150"
+My Computer = "192.168.3.101"
 
 [RT myRIO Target]
 RT myRIO Target = "172.22.11.2"

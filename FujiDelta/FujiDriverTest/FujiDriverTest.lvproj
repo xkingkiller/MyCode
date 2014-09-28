@@ -10,20 +10,34 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="RS485 Comm Test 1.vi" Type="VI" URL="../RS485 Comm Test 1.vi"/>
-		<Item Name="Test Read Bit.vi" Type="VI" URL="../Test Read Bit.vi"/>
-		<Item Name="Test Request Read Data.vi" Type="VI" URL="../Test Request Read Data.vi"/>
-		<Item Name="Test Write Bit.vi" Type="VI" URL="../Test Write Bit.vi"/>
-		<Item Name="Test Write Data.vi" Type="VI" URL="../Test Write Data.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../../../Test.vi"/>
+		<Item Name="Low Level Test" Type="Folder">
+			<Item Name="RS485 Comm Test 1.vi" Type="VI" URL="../RS485 Comm Test 1.vi"/>
+			<Item Name="Test Read Bit.vi" Type="VI" URL="../Test Read Bit.vi"/>
+			<Item Name="Test Request Read Data.vi" Type="VI" URL="../Test Request Read Data.vi"/>
+			<Item Name="Test Write Bit.vi" Type="VI" URL="../Test Write Bit.vi"/>
+			<Item Name="Test Write Data.vi" Type="VI" URL="../Test Write Data.vi"/>
+		</Item>
+		<Item Name="Fuji Delta Single Motor Test.vi" Type="VI" URL="../Fuji Delta Single Motor Test.vi"/>
+		<Item Name="FujiDelta Test.vi" Type="VI" URL="../FujiDelta Test.vi"/>
+		<Item Name="Initialize New Motor.vi" Type="VI" URL="../../Delta Robot/Initialize New Motor.vi"/>
+		<Item Name="Reset Motor Zero.vi" Type="VI" URL="../Reset Motor Zero.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
 			<Item Name="ALPHA5 RS485.lvlib" Type="Library" URL="../../ALPHA5 RS485/ALPHA5 RS485.lvlib"/>
+			<Item Name="Delta Robot Kinematics.lvclass" Type="LVClass" URL="../../../../../../GitHub/MyCode/Common/Delta Robot Kinematics/Delta Robot Kinematics.lvclass"/>
+			<Item Name="Fuji Delta Robot.lvlib" Type="Library" URL="../../Delta Robot/Fuji Delta Robot.lvlib"/>
+			<Item Name="IntersectCircles.vi" Type="VI" URL="../../../../../../GitHub/MyCode/Common/IntersectCircles.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

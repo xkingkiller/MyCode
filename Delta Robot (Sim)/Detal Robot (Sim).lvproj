@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -83,8 +83,6 @@
 				<Item Name="3D Scatter Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Scatter/3D Scatter Datatype/3D Scatter Datatype.lvclass"/>
 				<Item Name="3D Scatter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Scatter/3D Scatter/3D Scatter.lvclass"/>
 				<Item Name="3D Scatter.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Scatter/3D Scatter XCtrl/3D Scatter.xctl"/>
-				<Item Name="3D Stem Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Stem/3D Stem Datatype/3D Stem Datatype.lvclass"/>
-				<Item Name="3D Stem.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Stem/3D Stem/3D Stem.lvclass"/>
 				<Item Name="3DMathPlot Action String.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.ctl"/>
 				<Item Name="3DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.vi"/>
 				<Item Name="3DMathPlot Ctrl Act Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Cluster.ctl"/>
@@ -137,7 +135,7 @@
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
@@ -188,6 +186,11 @@
 				<Item Name="NI_Robotics_Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Wheel/NI_Robotics_Wheel.lvclass"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="nimc.ex.clearFaults.clearFaults.axis.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.ex.clearFaults.clearFaults.axis.vi"/>
+				<Item Name="nimc.ex.contourMove.startContourMove.coordinate.modeFinite.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.ex.contourMove.startContourMove.coordinate.modeFinite.vi"/>
+				<Item Name="nimc.ex.read.readExecutionData.coordinate.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.ex.read.readExecutionData.coordinate.vi"/>
+				<Item Name="nimc.ex.resetPosition.resetPosition.coordinate.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.ex.resetPosition.resetPosition.coordinate.vi"/>
+				<Item Name="nimc.ex.stopMove.stop.coordinate.modeDecelerate.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.ex.stopMove.stop.coordinate.modeDecelerate.vi"/>
 				<Item Name="nimc.fb.contourMove.splineType.ctl" Type="VI" URL="/&lt;vilib&gt;/Motion/Express/_s/nimc.fb.contourMove.splineType.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -232,10 +235,8 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
-				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 			<Item Name="3D Physics Global Value From XML.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NewDialogFiles/ProjectWizards/Robotics/LV4R_SIM/Source/Wizard/Global Value/3D Physics Global Value From XML.vi"/>
-			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 			<Item Name="AddCoordinate.vi" Type="VI" URL="/&lt;resource&gt;/plugins/NewDialogFiles/ProjectWizards/Robotics/LV4R_SIM/Source/Utilities/AddCoordinate.vi"/>
 			<Item Name="Axis.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/NewDialogFiles/ProjectWizards/Robotics/LV4R_SIM/Source/Wizard/Simulator/Simulator ctl/Axis.ctl"/>
 			<Item Name="Component Type.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/NewDialogFiles/ProjectWizards/Robotics/LV4R_SIM/Source/TypeDef/Component Type.ctl"/>

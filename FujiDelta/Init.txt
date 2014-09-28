@@ -1,18 +1,41 @@
 PA3_09	CONT9	4	0208	START
 PA3_10	CONT10	1	0209	SON
-PA3_11	CONT11	23	020A	立即值变更指令(MS)
-PA3_12	CONT12	11	020B	RST(报警复位）
-PA3_56	OUT6	2	0305	定位结束INP
+PA3_11	CONT11	23	020A	Inst Pos Online Modify(MS)
+PA3_12	CONT12	11	020B	RST Alarm
+PA3_13	CONT13	16	020C	Pos Reset to PA2_19
+PA3_56	OUT6	2	0305	Pos reached(INP)
 
-PA2_40 = 0	立即数数据对自动启动有效
-PA3_01 = 0	SON硬件分配取消
 
-5101	立即数位置
-5102	立即数速度
-5100	立即数状态：FF0000(ABS), 1FF0000(INC)
-5103	立即值加速时间
-5104	立即值减速时间
+PA2_40 = 0	Inst Value On
+PA3_01 = 0	SON Motor CONT1 OFF
+PA1_01 = 7	Inst Value Control
+PA1_02 = 1	ENC ABS Mode
 
+5101	Inst Pos Value
+5102	Inst Vel Value (0.01r/min)
+5100	Inst Mode FF0000(ABS), 1FF0000(INC)
+5103	Inst Acc Time (0.1ms)
+5104	Inst Dec Time (0.1ms)
+
+ENC parameters:
+PA1_05	ENC Pluses cnt/r: 0(PA1_6, PA1_7 work); 64~262144 pluse/cnt
+PA1_6	EGear Num
+PA1_7	EGear Dev
+
+unit/r = 262144 / PA1_6 * PA1_7
+
+Motor Para Address
+PA1_1~99	4000~4062
+PA2_1~99	4100~4162
+PA3_1~99	4200~4262
+
+
+RS485:
+PA2_72	BANK
+PA2_73	Baud Rate: 0:38400; 1:19200; 2:9600; 3:115200
+PA2_97	1
+
+Gear Ratio: 1:45
 
 1. SON
 2. V(5000)->5102
